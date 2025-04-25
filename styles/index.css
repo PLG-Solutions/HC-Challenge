@@ -1,15 +1,19 @@
-*{ 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: lemon;
+    
+}
+
+body {
+    overflow-x: hidden;
 }
 header {
     display: flex;
     justify-content: center;
     padding: 40px;
     box-shadow: -2px 9px 24px -11px rgba(0, 0, 0, 0.112);
-    /* position: fixed; */
     width: 100%;
     background-image: url(/images/pngtamnhocerto/logohc.png);
     background-size: 90px;
@@ -28,7 +32,7 @@ nav a {
 .toclick:hover {
     color: var(--botoeshover);
     border-bottom: 3px solid var(--botoeshover);
-    
+
 
 }
 
@@ -40,7 +44,7 @@ nav a {
 
 .imgfeliz img {
     width: 600px;
-    border-radius: 20px ;
+    border-radius: 20px;
     box-shadow: 2px 2px 32px 0px rgba(0, 0, 0, 0.385);
     z-index: 3;
     position: relative;
@@ -50,7 +54,7 @@ nav a {
 .conteudo {
     display: flex;
     justify-content: center;
-   
+
 }
 
 .textmain {
@@ -85,13 +89,13 @@ nav a {
 }
 
 .blocoborder {
-   border: 2px solid var(--botoeshover);
-   border-radius: 20px;
-   width: 400px;
-   height: 200px;
-   position: relative;
-   top: -850px;
-   left: 440px;
+    border: 2px solid var(--botoeshover);
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: -850px;
+    left: 440px;
 }
 
 .faq {
@@ -99,7 +103,7 @@ nav a {
     width: 100%;
     background: linear-gradient(90deg, #007cc3 0%, #0097a8 100%);
     position: relative;
-    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 5px 0px rgba(0, 0, 0, 0.75);
     margin-top: -450px;
 }
 
@@ -120,35 +124,178 @@ nav a {
 }
 
 .btnfaq i {
-   font-size: 60px ;
-   color: var(--botoeshover);
-   margin-bottom: 40px;
+    font-size: 60px;
+    color: var(--botoeshover);
+    margin-bottom: 40px;
 }
 
-.btnfaq span{ 
+.btnfaq span {
     visibility: hidden;
 }
 
-.faq p{
+.faq p {
     color: white;
-     text-align: center;
-     padding: 40px;
-     font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
 }
 
 .btnfaq:hover {
-background: rgb(200, 200, 200);
+    background: rgb(200, 200, 200);
 }
 
-.divisao {
-    background-color: white;
-    box-shadow: -2px 13px 60px -10px rgba(0,0,0,0.75);
-    height: 50px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.216);
-    width: 100%;
+section {
+    margin: -400px;
+    background: var(--fundoaviso);
+
 }
-.conhecimentos {
-    background: rgb(255, 255, 255);
-    height: 400px;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.312);
- }
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.diferenciais {
+    padding: 60px 0;
+}
+
+.diferenciais h2 {
+    font-size: 2.5rem;
+    color: #1e40af;
+    margin-bottom: 20px;
+    font-weight: 700;
+    
+}
+
+.section-description{
+    font-family: arial;
+}
+
+.section-description {
+    font-size: 1.125rem;
+    color: #4b5563;
+    margin-bottom: 50px;
+    max-width: 900px;
+    line-height: 1.7;
+}
+
+.cards {
+    display: grid;
+    gap: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card-icon {
+    width: 48px;
+    height: 48px;
+    background-color: #dbeafe;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card-icon i {
+    color: #2563eb;
+    font-size: 1.25rem;
+}
+
+.card h3 {
+    font-size: 1.40rem;
+    color: #1e40af;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.card p {
+    color: #4b5563;
+    font-size: 1.30rem;
+    font-family: arial;
+}
+
+.spancard {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--botoeshover);
+}
+
+.footer {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 60px 0 30px;
+    margin-top: 410px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.footer-col h3 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.footer-col h4 {
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+}
+
+.footer-col p {
+    color: #bfdbfe;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #bfdbfe;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: white;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #bfdbfe;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-info li i {
+    color: #bfdbfe;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #2c4a9e;
+    text-align: center;
+    color: #bfdbfe;
+}
