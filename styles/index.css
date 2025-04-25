@@ -1,0 +1,154 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lemon;
+}
+header {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    box-shadow: -2px 9px 24px -11px rgba(0, 0, 0, 0.112);
+    /* position: fixed; */
+    width: 100%;
+    background-image: url(/images/pngtamnhocerto/logohc.png);
+    background-size: 90px;
+    background-repeat: no-repeat;
+}
+
+.dontclick {
+    color: rgba(0, 0, 0, 0.418);
+}
+
+nav a {
+    text-decoration: none;
+    margin: 50px;
+}
+
+.toclick:hover {
+    color: var(--botoeshover);
+    border-bottom: 3px solid var(--botoeshover);
+    
+
+}
+
+.click {
+    border-bottom: var(--botoes) 3px solid;
+    color: var(--botoes);
+}
+
+
+.imgfeliz img {
+    width: 600px;
+    border-radius: 20px ;
+    box-shadow: 2px 2px 32px 0px rgba(0, 0, 0, 0.385);
+    z-index: 3;
+    position: relative;
+    margin: 60px 70px 0px 0px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.textmain {
+    width: 500px;
+    text-align: justify;
+    margin: 60px 0 0 0;
+}
+
+.textmain h2 {
+    font-size: 35px;
+    color: var(--botoeshover);
+}
+
+
+.ptextmain {
+    margin: 10px 0px;
+    font-family: arial;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.blocoazul {
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    top: -300px;
+    left: 160px;
+    border: 2px solid var(--botoes);
+}
+
+.blocoborder {
+   border: 2px solid var(--botoeshover);
+   border-radius: 20px;
+   width: 400px;
+   height: 200px;
+   position: relative;
+   top: -850px;
+   left: 440px;
+}
+
+.faq {
+    height: 450px;
+    width: 100%;
+    background: linear-gradient(90deg, #007cc3 0%, #0097a8 100%);
+    position: relative;
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    margin-top: -450px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnfaq {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 32px 0px rgba(0, 0, 0, 0.385);
+    text-align: center;
+    padding: 20px;
+}
+
+.btnfaq i {
+   font-size: 60px ;
+   color: var(--botoeshover);
+   margin-bottom: 40px;
+}
+
+.btnfaq span{ 
+    visibility: hidden;
+}
+
+.faq p{
+    color: white;
+     text-align: center;
+     padding: 40px;
+     font-size: 30px;
+}
+
+.btnfaq:hover {
+background: rgb(200, 200, 200);
+}
+
+.divisao {
+    background-color: white;
+    box-shadow: -2px 13px 60px -10px rgba(0,0,0,0.75);
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.216);
+    width: 100%;
+}
+.conhecimentos {
+    background: rgb(255, 255, 255);
+    height: 400px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.312);
+ }
