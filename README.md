@@ -23,20 +23,18 @@ Estudantes de Análise e Desenvolvimento de Sistemas na **FIAP – Unidade Lins*
 
 ```
 📂 pages/
-│  ├─ index.html          - Página inicial com apresentação do projeto
-│  ├─ perguntas.html      - Página de perguntas frequentes com busca inteligente
-│  ├─ cadastro.html       - Tutorial em áudio para cadastro no PortalPaciente
-│  └─ qmsomos.html        - Página de apresentação da equipe
+│  ├─ index.html                     - Página inicial com apresentação do projeto
+│  ├─ perguntas-frequentes.html      - Página de perguntas frequentes com busca inteligente
+│  ├─ contato.html                   - Para enviar uma menssagem para o nosso sistema
+│  └─ quem-somos.html                - Página de apresentação da equipe
 
 📂 scripts/
-│  ├─ menu.js             - Script para funcionamento do menu
+│  ├─ script.js            - Script para funcionamento do site e outras funções
 │  └─ pesquisafacil.js    - Script para busca por texto e voz
 
 📂 styles/
-│  ├─ cadastro.css
-│  ├─ perguntas.css
-│  ├─ qmsomos-desktoppc.css
-│  └─ outros arquivos de estilo
+│  ├─ style.css
+│  └─ faq.css
 ```
 
 ---
@@ -70,6 +68,6 @@ Estudantes de Análise e Desenvolvimento de Sistemas na **FIAP – Unidade Lins*
 
 ## 📞 Contato
 
-Entre em contato com os integrantes pela página [Quem Somos](qmsomos.html), onde estão listados perfis no LinkedIn e GitHub.
+Entre em contato com os integrantes pela página [Quem Somos](quem-somos.html), onde estão listados perfis no LinkedIn e GitHub.
 
 ---
